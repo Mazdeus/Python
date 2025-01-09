@@ -38,3 +38,12 @@ Output:
 55
 80
 """
+
+# Adding optional argument with default to the functions turns out to be easy 
+def greet(who="Colin"):
+    print("Hello,", who)
+    
+greet()
+greet(who="Kaggle")
+# (In this case, we don't need to specify the name of the argument, because it's unambiguous.)
+greet("world")
