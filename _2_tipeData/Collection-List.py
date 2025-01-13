@@ -76,6 +76,8 @@ for n in range(10):
 squares
 """
 
+planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+
 # Contoh pakai if
 short_planets = [planet for planet in planets if len(planet) < 6]
 short_planets

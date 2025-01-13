@@ -100,5 +100,7 @@ planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', '
 planet_to_initial = {planet: planet[0] for planet in planets}
 planet_to_initial
 
+# .items() adalah metode dictionary yang mengembalikan pasangan key-value sebagai tuple.
 for planet, initial in planet_to_initial.items():
+    # Fungsi rjust(10) merapikan teks planet sehingga memiliki panjang minimal 10 karakter dengan tambahan spasi di kiri (untuk perataan kanan).
     print("{} begins with \"{}\"".format(planet.rjust(10), initial))
