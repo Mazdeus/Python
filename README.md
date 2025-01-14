@@ -1,2 +1,2 @@
 # Python
-Belajar Python
+Learn Python
